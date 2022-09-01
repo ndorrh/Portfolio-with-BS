@@ -51,7 +51,9 @@
       </nav>
     </header>
     <main class="container-fluid d-flex flex-column align-items-center">
-      <section class="container d-flex flex-column justify-content-center align-items-center intro-wrapper pb-lg-5">
+      <section
+        class="container d-flex flex-column justify-content-center align-items-center intro-wrapper pb-lg-5"
+      >
         <h1 class="text-center">
           Hey there. I'm Ndorrh
           <code class="d-block">I'm a software developer</code>
@@ -110,7 +112,7 @@
           </section>
 
           <section
-            class="col-xl-3 col-md-5 col-lg-4  border d-flex flex-column align-items-center card"
+            class="col-xl-3 col-md-5 col-lg-4 border d-flex flex-column align-items-center card"
           >
             <img class="card-img-top" src="assets/img/2.png" alt="project6" />
             <div class="card-body d-flex flex-column align-items-center">
@@ -243,7 +245,7 @@
             class="col-xl-3 col-md-5 col-lg-4 border d-flex flex-column align-items-center bg-light"
           >
             <img src="assets/img/icon-frameworks.png" alt="frame-work-logo" />
-            <h4 my-3>FrameWorks</h4>
+            <h4>FrameWorks</h4>
             <ul
               class="list-unstyled d-flex flex-row gap-2 flex-wrap justify-content-center"
             >
@@ -272,20 +274,57 @@
           </section>
         </div>
       </section>
-      <section class="container d-flex flex-column flex-xl-row flex-md-column flex-sm-column flex-lg-row flex-wrap justify-content-center my-5 align-items-center">
-        <h2 class="text-center w-50 p-3">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-        <form class="w-50" action="https://formspree.io/f/xvoygkpa" method="post">
+      <section
+        class="container d-flex flex-column flex-xl-row flex-md-column flex-sm-column flex-lg-row flex-wrap justify-content-center my-5 align-items-center"
+      >
+        <h2 class="text-center w-50 p-3">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+        <form
+          class="w-50"
+          action="https://formspree.io/f/xvoygkpa"
+          method="post"
+        >
           <div class="mb-3">
-            <label for="exampleInputName" class="form-label d-none">Full Name</label>
-            <input type="name" class="form-control" id="exampleInputName" placeholder="Full Name" aria-describedby="emailHelp" maxlength="30" required>
+            <label for="exampleInputName" class="form-label d-none"
+              >Full Name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputName"
+              placeholder="Full Name"
+              maxlength="30"
+              required
+            />
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail" class="form-label d-none">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email address" required>
+            <label for="exampleInputEmail" class="form-label d-none"
+              >Email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail"
+              placeholder="Email address"
+              required
+            />
           </div>
           <div class="mb-3">
-            <label for="exampleInputMessage" class="form-label d-none">Message</label>
-            <textarea name="message" class="form-control" id="exampleInputMessage" cols="30" rows="4" maxlength="500" placeholder="Enter text here" required></textarea>
+            <label for="exampleInputMessage" class="form-label d-none"
+              >Message</label
+            >
+            <textarea
+              name="message"
+              class="form-control"
+              id="exampleInputMessage"
+              cols="30"
+              rows="4"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
           </div>
           <button type="submit" class="btn btn-success">Get in touch</button>
         </form>
