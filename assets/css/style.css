@@ -1,0 +1,42 @@
+.intro-wrapper {
+    background: url("../../assets/img/header-bg.png") 0 0 no-repeat;
+    background-size: 100%;
+  }
+  
+  .works-heading {
+    background: url("../../assets/img/Indicator.png") 0 0 no-repeat;
+    background-position: bottom center;
+  }
+  
+  
+  .about-header {
+    background: url("../../assets/img/about-me-1.png") 0 100% no-repeat, url("../../assets/img/Mask-Group.png") 100% 0 no-repeat;
+  }
+  
+  
+  
+  .contact-section {
+    background: url("../../assets/img/contact-bg.png") 100% 100% no-repeat;
+  }
+  
+  textarea {
+    background: url("../../assets/img/textarea-icon.png") 100% 100% no-repeat;
+  }
+  
+  
+  
+  @media screen and (min-device-width: 768px) {
+    .contact-section {
+      background: url("../../assets/img/contact-bg-1.png") 100% 100% no-repeat, url("../../assets/img/contact-bg-2.png") 0 100% no-repeat, url("../../assets/img/contact-bg-3.png") 20% 100% no-repeat;
+    }
+
+    .intro-wrapper {
+        background: none;
+    }
+  
+    body {
+      background: url("../../assets/img/header-bg-wide.png") 0 0 no-repeat;
+      background-size: 100%;
+    }
+  }
+  
