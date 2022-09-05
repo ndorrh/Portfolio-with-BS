@@ -1,0 +1,20 @@
+.intro-wrapper {
+  background: url("../../assets/img/header-bg.png") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.works-heading {
+  background: url("../../assets/img/Indicator.png") 0 0 no-repeat;
+  background-position: bottom center;
+}
+
+@media screen and (min-device-width: 768px) {
+  .intro-wrapper {
+    background: none;
+  }
+
+  body {
+    background: url("../../assets/img/header-bg-wide.png") 0 0 no-repeat;
+    background-size: 100%;
+  }
+}
